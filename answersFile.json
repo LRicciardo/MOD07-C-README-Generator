@@ -1,0 +1,21 @@
+{
+  "repoName": "MOD09-C-README-Generator",
+  "projName": "README Markdown Generator for GitHub Repositories",
+  "projDesc": "Creates a Markdown file to include in your GitHub Repository.",
+  "projSteps": "1. install node.js 2. create node packages manager ```npm init -y``` 3. include inquirer v8.2.4 ```npm i inquirer@8.2.4``` 4. run ```node index.js```",
+  "projScreenShot": "n",
+  "projResource": "Me, Myself and I",
+  "projLicense": "The MIT License",
+  "badgeColor": "blue",
+  "projLang": [
+    "JavaScript",
+    "JavaScript with Node.js",
+    "HTML with CSS",
+    "HTML with Bootstrap",
+    "HTML with Bulma"
+  ],
+  "projFeature": "Modularity",
+  "projTest": "No testing procedures at this time.",
+  "projGitHub": "LRicciardo",
+  "projEmail": "Liane.Ricciardo@gmail.com"
+}

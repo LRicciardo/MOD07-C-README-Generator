@@ -1,6 +1,6 @@
 # MOD09-C-README-Generator
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 Creates a README.md file to include in repositories using node.js

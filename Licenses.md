@@ -4,7 +4,8 @@
  - link -- has badge with backticks around ------
  - question: colors what colors to choose --- what colors are available
 
- 
+ "[![License](https://img.shields.io/badge/License-" + licenseAbbr + "-" + color1 + ".svg)](" + link ")"
+ "`[![License](https://img.shields.io/badge/License-"
 
 ## Apache
 ### Apache 2.0 License
