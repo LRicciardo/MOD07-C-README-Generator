@@ -1,10 +1,6 @@
 const inquirer = require("inquirer");
 
-// const quest = function () {
-//     console.log("inside questions.js");
-// }
-
-// const questions = () =>{
+// List of questions to ask for README
 const questions = () => {
   return inquirer.prompt([
     {
@@ -21,17 +17,7 @@ const questions = () => {
       type: "input",
       name: "projDesc",
       message: "Describe your project.",
-      // default: false,
-      // validate(text) {
-      //     if (text.split('\n').length < 2) {
-      //       return 'Must be at least 2 lines.';
-      //     }
-
-      //     return true;
-      //   },
-      //   waitUserInput: true,
     },
-
     {
       type: "input",
       name: "projSteps",
@@ -119,6 +105,7 @@ const questions = () => {
       name: "projLang",
       message: "What language(s) are you using?", // can badge this?
       choices: [
+        "Markdown",
         "JavaScript",
         "JavaScript with Node.js",
         "HTML with CSS",
